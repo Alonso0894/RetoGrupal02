@@ -6,6 +6,23 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
 header {
     display: flex;
     width: 100%;
@@ -73,8 +90,191 @@ h1 {
     text-align: center;
 }
 
+.image-section{
+    width: 100%;
+    height: 1500px;
+    margin: 0;
+}
+
+.section-1, .section-2, .section-3{
+    display: flex;
+    width: 100%;
+    height: 33%;
+}
+
+main .image-section .section-3{
+    height: 34%;
+}
+
+.section-1__first, .section-1__second, .section-2__first, .section-2__second, .section-3__first, .section-3__second{
+    width: 50%;
+    display: flex;
+}
+
+.container-1, .container-2{
+    width: 60%;
+}
+
+.section-3__first, .section-3__second{
+    height: 100%;
+}
+
+.section-1__second--img, .section-2__first--img{
+    width: 100%;
+}
+
+.section-1__first, .section-2__second{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1__first--title, .section-2__second--title{
+    font-size: 3.2rem;
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+}
+
+.section-1__first--text-1, .section-1__first--text-2, .section-2__second--text-1, .section-2__second--text-2 {
+    width: 100%;
+    font-size: 1.8rem ;
+    color: hsl(213, 9%, 39%);
+    font-family: 'Barlow', sans-serif;
+}
+
+.section-3{
+    display: flex;
+    width: 100%;
+}
+
+.section-3__first{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(./desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-3__second{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(./desktop/image-photography.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-3, .container-4{
+    height: 40%;
+    width: 60%;
+}
+
+.section-3__first--title, .section-3__second--title{
+    width: 100%;
+    display: flex;
+    font-size: 3.2rem;
+    justify-content: center;
+    font-family: 'Fraunces', serif;
+}
+
+.section-3__first--text, .section-3__second--text{
+    font-size: 1.8rem ;
+    font-family: 'Barlow', sans-serif;
+}
+
+.section-3__first--title, .section-3__first--text{
+    color: hsl(167, 40%, 24%);
+}
+
+.section-3__second--title, .section-3__second--text{
+    color: hsl(198, 62%, 26%);
+}
+
+/*   Aqui inicia la seccion de testimonios   */
+
+.testimonials-section{
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-5{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.testimonials__title{
+    font-size: 1.95rem;
+    color: hsl(232, 10%, 55%);
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+}
+
+.testimonials--1, .testimonials--2, .testimonials--3{
+    width: 33%;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+.testimonials__container-img--1, .testimonials__container-img--2, .testimonials__container-img--3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials__img-1, .testimonials__img-2, .testimonials__img-3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.testimonials__text-first--1, .testimonials__text-first--2, .testimonials__text-first--3{
+    height: 80px;
+    font-size: 1.8rem;
+    color: hsl(213, 9%, 39%);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+.testimonials__text-second--1, .testimonials__text-second--2, .testimonials__text-second--3{
+    font-size: 1.9rem;
+    color: hsl(212, 27%, 19%);
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+}
+
+.testimonials__text-third--1, .testimonials__text-third--2, .testimonials__text-third--3{
+    font-size: 1.8rem;
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow', sans-serif;
+}
+
 footer {
-    background-color:   hsl(168, 34%, 41%);
+    background-color:   hsl(168, 56%, 63%);
     flex-direction: column;
     text-align: center;
 }
