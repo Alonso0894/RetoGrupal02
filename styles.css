@@ -187,7 +187,7 @@ main .image-section .section-3{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url(../images/desktop/image-graphic-design.jpg);
+    background-image: url(./desktop/image-graphic-design.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,7 +200,7 @@ main .image-section .section-3{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url(../images/desktop/image-photography.jpg);
+    background-image: url(./desktop/image-photography.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
